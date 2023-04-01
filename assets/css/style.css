@@ -201,7 +201,7 @@ img.bg {
 	color: #070707;
 	display: block;
 	font-size: 13.5px;	
-	line-height: 19px;
+	line-height: 20px;
 	margin: 0;
 	padding: 0;
 	text-align: justify;
@@ -226,24 +226,24 @@ img.bg {
 	width: 580px;
 }
 .about-rez .c3 {
-	margin: 14px 0 10px 0;
+	margin: 20px 0 10px 0;
 	width: 350px;
 }
 .about-rez .c4 {
-	margin: 14px 0 10px 0;
+	margin: 20px 0 10px 0;
 }
 .about-rez .c1 img {
-	margin: 12px 0 0 0;
+	margin: 7px 0 0 0;
 	width: 280px;
 	height: 345px;
 }
 .about-rez .c2 span {
-	padding-top: 5px;
+	padding-top: 10px;
 }
 .about-rez .c3 span, .about-rez .c4 span {
 	display: block;
 	font-size: 14px;
-	line-height: 37px;
+	line-height: 38px;
 	text-align: justify;
 }
 .about-rez h2 {
@@ -253,7 +253,7 @@ img.bg {
 	line-height: 30px;
 	margin: 0;
 	text-align: justify;
-	padding: 4px 0 8px 0;
+	padding: 7px 0 8px 0;
 }
   
 
