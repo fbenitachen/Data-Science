@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio - Felice</title>
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="assets/css/tab.css" media="all" />
+    <!-- JS -->
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/slider.js"></script>
+    <script src="assets/js/slides/source/slides.min.jquery.js"></script>
+    
+    <!-- superfish -->
+    <script type="text/javascript" src="assets/js/superfish-1.4.8/js/hoverIntent.js"></script>
+    <script type="text/javascript" src="assets/js/superfish-1.4.8/js/superfish.js"></script>
+    <script type="text/javascript" src="assets/js/superfish-1.4.8/js/supersubs.js"></script>
+    <!-- ENDS superfish -->
+    
+    <!-- poshytip -->
+    <script type="text/javascript" src="assets/js/poshytip-1.0/src/jquery.poshytip.min.js"></script>
+    <!-- ENDS poshytip -->
+    
+    <!-- Tweet -->
+    <script src="assets/js/tweet/jquery.tweet.js" type="text/javascript"></script> 
+    <!-- ENDS Tweet -->
+        
+    <!-- prettyPhoto -->
+	<script type="text/javascript" src="assets/js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+    <link rel="stylesheet" href="assets/js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" />
+    <!-- ENDS prettyPhoto -->
+</head>
+
+<body>
+<div id="header-cont">
+	<div id="header">
+        <div id="logo">
+            <a href="index.html"></a>		
+        </div>		
+        <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="resume-edu.html">Resume</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li class="active"><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="clr"></div>
+	</div>
+</div>
+<div id="container">
+	<div class="about">
+      <h1>Portfolio</h1>
+      <span class="border-title"></span>
+      <div class="pf-content">
+  
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1"><img class="tab-ico" src="assets/images/data-science-ico.png"/>Data Science</label>
+  
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2"><img class="tab-ico" src="assets/images/data-analytics-ico.png"/>Data Analytics</label>
+    
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3"><img class="tab-ico" src="assets/images/web-development-ico.png"/>Web Design & Development</label>
+  
+  <section id="content1">
+    <div class="featured">
+        <ul class="ds-proj">
+        	<li>
+                <h3>Sentiment Analysis of Movie Reviews</h3>		
+                <span class="cls0"><ul class="ds-proj-det"><li>Developed a natural language processing (NLP) technique with a Logistic Regression model to identify movie reviews from IMDB as either positive or negative with an accuracy score 0.896.</li>
+                <li>Tokenization of documents using NLP toolkit or nltk in Python to perform stemming and transformed the database of reviews into TF-IDF vectors.</li>
+                </ul>
+</span>		
+                <span class="cls1"><a href="portfolio/jupyter-notebook/Sentiment_Analysis_of_Movie_Reviews.html" target="_blank" class="read-more">See Complete Project...</a></span>
+            </li>
+        	<li>
+                <h3>Customer Segmentation</h3>
+                <span class="cls0"><strong>Problem Statement:</strong> An automobile company has plans to enter new markets with their existing products. In their existing market, the sales team has classified all customers into 4 segments (A, B, C, D).<br/>The objective is to classified new potential customers into 4 segments similar to their existing market.<br/>
+                <ul class="ds-proj-det"><li>Developed a K-Means model that predicts the right group of the new customers.</li>
+                <li>Checked the quality of clustering with cluster cardinality and cluster magnitude, and interpreted the meaning of the clusters by characterizing the clusters.</li></ul>
+</span>		
+                <span class="cls1"><a href="portfolio/jupyter-notebook/Customer_Segmentation.html" target="_blank" class="read-more">See Complete Project...</a></span>
+            </li>
+            <li>
+                <h3>Credit Risk Prediction</h3>
+                <span class="cls0"><strong>Problem Statement:</strong> Used the German Credit Data, which each entry represents a person who takes a credit by a bank. Each person is classified as good or bad credit risks according to the set of attributes.<br/>
+                The objective is to developed a model to predict the credit risks of new bank customers.<br/>
+				<ul class="ds-proj-det"><li>Developed a Logistic Regression model that predicts credit risks using German credit data with 100% recall and 100% precision in Python.</li></ul>
+				</span>		
+                <span class="cls1"><a href="portfolio/jupyter-notebook/Credit_Risk_Prediction.html" target="_blank" class="read-more">See Complete Project...</a></span>
+           	</li>  	
+        </ul>
+	</div>
+    <div class="clr"></div>
+  </section>
+  
+  <section id="content2">
+   	<div class="featured">
+        <ul class="proj-list">
+            <li>
+            	<div class="pthumbs"><img src="assets/images/project-thumbs/python_eda_netflix.jpg"/></div>
+            	<div class="pdesc">
+                    <h3>Netflix Movies and TV Shows Exploratory Data Analysis (EDA) with Visualization</h3>
+                    <span class="cls0"><ul class="da-proj-det"><li>Dataset was obtained from Kaggle.</li><li>Performed an exploratory data analysis with visualization in Python to explore movies and tv shows trends on Netflix.</li></ul></span>
+                    <span class="cls1"><a href="portfolio/jupyter-notebook/Netflix_EDA_Visualization.html" target="_blank" class="read-more">See Complete Project...</a></span>
+                </div>	 
+            </li>
+            <li>
+            	<div class="pthumbs"><img src="assets/images/project-thumbs/tableau_sales_losses.jpg"/></div>
+            	<div class="pdesc">
+                    <h3>Pattern of Sales Losses Analysis</h3>		
+                    <span class="cls0"><ul class="da-proj-det"><li>Created interactive dashboards in Tableau to analyze patterns of sales losses.</li>
+                    <li>Identified correlation between profit ratio, profit, and sales by customer; correlation between customer discounts and profit; and correlation between geography (region and state) and profit.</li></ul></span>		
+                    <span class="cls1"><a href="portfolio/tableau/tableau-pattern-of-losses.html" target="_blank" class="read-more">See Complete Project...</a></span>
+                </div>
+            </li>
+            <li>
+            	<div class="pthumbs"><img src="assets/images/project-thumbs/tableau_sales_kpi.jpg"/></div>
+            	<div class="pdesc">
+                    <h3>Sales KPI Analysis</h3>		
+                    <span class="cls0"><ul class="da-proj-det"><li>Created Sales KPI interactive dashboards in Tableau to monitor sales performance including total sales, profit, and order; monthly sales, profit, and order; KPI by region and category; sales by region and category; and profitability KPI by category, product, and order details.</li></ul></span>		
+                    <span class="cls1"><a href="portfolio/tableau/tableau-sales-kpi.html" target="_blank" class="read-more">See Complete Project...</a></span>
+               </div>
+            </li>
+            <li>
+            	<div class="pthumbs"><img src="assets/images/project-thumbs/accenture_forage.jpg"/></div>
+            	<div clss="pdesc">
+                <h3>Accenture Data Analytics and Visualization Virtual Experience Program on Forage</h3>
+                <span class="cls0"><ul class="da-proj-det"><li>Completed virtual work experience program at Accenture North America provided by Forage.</li>
+                <li>Exposed many different skills such Project Understanding, Data Cleaning & Modeling, Data Visualization & Storytelling, and Present to the Client.</li></ul></span>		
+                <span class="cls1"><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_Aaz5SsYLKNw4igoR7_1677753024070_completion_certificate.pdf" target="_blank" class="read-more">See Complete Project...</a></span></div>
+            </li>
+         </ul>
+    </div>
+  </section>
+  
+  <section id="content3">
+  </section>
+  </div>
+ </div>
+</div>
+<div id="footer">
+	<div>
+		<p>&copy Copyright 2022 by <strong>Felice Benita</strong>. All rights reserved</p>
+	</div>
+</div>
+</body>
+</html>
